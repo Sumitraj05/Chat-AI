@@ -1,0 +1,27 @@
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px; /* Adjusted width for better visibility */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #2d3a45; /* Darker thumb for better contrast */
+  border-radius: 4px;
+  border: 2px solid #1e2a33; /* Border to make thumb more visible */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: #295ba2; /* Brighter color on hover for better feedback */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* For Internet Explorer */
+  scrollbar-width: none;     /* For Firefox */
+}
