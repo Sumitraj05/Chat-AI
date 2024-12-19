@@ -54,14 +54,9 @@ function App() {
       <div className="h-full max-w-4xl mx-auto flex flex-col p-3">
         {/* Fixed Header */}
         <header className="text-center py-4">
-          <a href="https://github.com/Vishesh-Pandey/chat-ai" 
-             target="_blank" 
-             rel="noopener noreferrer"
-             className="block">
             <h1 className="text-4xl font-bold text-yellow-500 hover:text-red-600 transition-colors">
               CodeShield
             </h1>
-          </a>
         </header>
 
         {/* Scrollable Chat Container */}
