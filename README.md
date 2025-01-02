@@ -2,6 +2,8 @@
 
 Welcome to the Chat AI App! This application is designed to provide intelligent and context-aware conversational capabilities, powered by the **Gemini API** and built with a modern **React.js** frontend.
 
+Website link - https://chat-ai-8iww.onrender.com
+
 ---
 
 ## **Features**
